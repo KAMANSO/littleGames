@@ -6,8 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-Normally, we use R programming for statistical analysis, for
-classification algorithm, for data visualization.However, R is rarely
+Usually we use R programming for statistical analysis, for
+classification algorithm, for data visualization. However, R is rarely
 used to program games.The goal of litteGames is to provide access to
 games in order to spend some fun times in RStudio. You can play maze, guess
 number, and more games are coming.

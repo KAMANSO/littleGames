@@ -1,0 +1,11 @@
+Package: littleGames
+Type: Package
+Title: littleGames R package
+Version: 0.1.0
+Author: Kaman So
+Maintainer: Kaman So <kamso@iu.edu>
+Description: Normally, we use R programming for statistical analysis, for classification algorithm, for data visualization.However, R is rarely used to program games.The goal of litteGames is to provide access to games in order to waste some times in RStudio. You can play maze, guess number, and more games are coming. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3

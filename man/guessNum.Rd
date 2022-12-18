@@ -16,6 +16,5 @@ Design a number guessing game: the computer generates a random integer between a
 }
 \examples{
 guessNum(0,100)
-83
-
+#then type a number and doulble click enter
 }

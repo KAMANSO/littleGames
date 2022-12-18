@@ -4,7 +4,7 @@
 \alias{maze}
 \title{Maze Game}
 \usage{
-maze(size, cex_set = 2.5)
+maze(size, cex_set)
 }
 \arguments{
 \item{size}{total maze size}
@@ -15,6 +15,6 @@ maze(size, cex_set = 2.5)
 Maze game, you can set the size by yourself.
 }
 \examples{
-maze(25,2.5)
+maze(10,3)
 
 }

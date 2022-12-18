@@ -9,7 +9,7 @@
 Normally, we use R programming for statistical analysis, for
 classification algorithm, for data visualization.However, R is rarely
 used to program games.The goal of litteGames is to provide access to
-games in order to waste some times in RStudio. You can play maze, guess
+games in order to spend some fun times in RStudio. You can play maze, guess
 number, and more games are coming.
 
 ## Installation
@@ -17,13 +17,11 @@ number, and more games are coming.
 You can install the development version of littleGames like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+install.packages("devtools")
+devtools::install_github("kamanso/littleGames")
 ```
 
 ## Example
-
-This is a basic example which shows you how to solve a common problem:
-
 ``` r
 library(littleGames)
 

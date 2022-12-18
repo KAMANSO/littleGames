@@ -29,5 +29,4 @@ maze(10,3)
 #guess number game
 guessNum(0,100)
 #then type any number and double click enter
-85
 ```

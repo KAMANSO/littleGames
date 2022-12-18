@@ -14,7 +14,7 @@ classification algorithm, for data visualization.However, R is rarely used to pr
 To install the littleGames demonstration package, you will need to install the release version of devtools from CRAN with
 ```{r}
 install.packages("devtools")
-devtools::install_github(kamanso/littleGames)
+devtools::install_github("kamanso/littleGames")
 ```
 
 ## Example

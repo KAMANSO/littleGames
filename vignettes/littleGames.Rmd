@@ -1,0 +1,34 @@
+---
+title: "littleGames"
+author: "Kaman So"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{littleGames}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+Introdution
+
+Usually we use R programming for statistical analysis, for classification algorithm, for data visualization.However, R is rarely used to program games.The goal of litteGames is to provide access to games in order to spend some fun times in RStudio. You can play maze, guess number, and more games are coming. 
+
+
+Maze game
+
+The first value of the function about the total size of the maze matrix. Fox example, the size= 10,then the maze matrix is (10x2-3)x(10x2-3)=17x17. Since each maze size is different, the color filling may be poor, either not filling up most of the area or exceeding the area to affect normal game operation, so a cex_set setting point size is left for the user to adjust. This is also the limitation need to be modify later.
+
+```{r setup}
+library(littleGames)
+maze(size=10, cex_set=3)
+
+```
+
+
+Guess number game 
+
+First set up the guessing range a and b. Then type any number and double click enter. If the given number is wrong, then it will return "Wrong answer, please enter another number between 'a' and 'b'.". Otherwise, the given number is correct, it will return "Congratulation! You win!!! The answer is xxx".
+
+```{r}
+guessNum(a=0,b=100)
+```
+
+

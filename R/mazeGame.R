@@ -111,7 +111,6 @@ maze <- function(size, cex_set = 2.5){
   keydown<-function(K){
     K = tolower(K)
     print(K)
-
     if(K == "down"){
       if(now.y > 2 && maze_map[now.x, now.y-1] == 0){
         points(now.x-0.5, now.y-0.5, col = 7, pch = 15, cex = cex_set)
@@ -119,7 +118,6 @@ maze <- function(size, cex_set = 2.5){
         points(now.x-0.5, now.y-0.5, col = 2, pch = 15, cex = cex_set)
       }
     }
-
     if(K == "up"){
       if(now.y < size2 - 1 && maze_map[now.x, now.y+1] == 0){
         points(now.x-0.5, now.y-0.5, col = 7, pch = 15, cex = cex_set)
@@ -127,7 +125,6 @@ maze <- function(size, cex_set = 2.5){
         points(now.x-0.5, now.y-0.5, col = 2, pch = 15, cex = cex_set)
       }
     }
-
     if(K == "left"){
       if(now.x > 2 && maze_map[now.x - 1, now.y] == 0){
         points(now.x-0.5, now.y-0.5, col = 7, pch = 15, cex = cex_set)
@@ -135,7 +132,6 @@ maze <- function(size, cex_set = 2.5){
         points(now.x-0.5, now.y-0.5, col = 2, pch = 15, cex = cex_set)
       }
     }
-
     if(K == "right"){
       if(now.x < size2 - 1 && maze_map[now.x + 1, now.y] == 0){
         points(now.x-0.5, now.y-0.5, col = 7, pch = 15, cex = cex_set)

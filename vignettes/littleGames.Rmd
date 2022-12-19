@@ -11,11 +11,17 @@ vignette: >
 
 Usually we use R programming for statistical analysis, for classification algorithm, for data visualization. However, R is rarely used to program games.The goal of litteGames is to provide access to games in order to spend some fun times in RStudio. You can play maze, guess number, and more games are coming. 
 
+#Installation
+
+```{r setup}
+#install.packages("devtools")
+#devtools::install_github("kamanso/littleGames")
+```
 
 #Maze game
 
 The first value of the function about the total size of the maze matrix. Fox example, the size= 10,then the maze matrix is (10x2-3)x(10x2-3)=17x17. 
-```{r setup}
+```{r}
 library(littleGames)
 maze(size=10, cex_set=5)
 ```
@@ -32,8 +38,6 @@ First set up the guessing range a and b. Then type any number and double click e
 ```{r}
 guessNum(a=0,b=100)
 ```
-
-
 
 #Future Work and Plans
 

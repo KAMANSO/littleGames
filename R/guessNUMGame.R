@@ -33,7 +33,7 @@ guessNum <- function(a = 0, b = 100){
         ccc <- scan();
         k = k + 1
       }else{
-        cat(paste0("Congratulation! You win!!! The answer is ",tg_num,"."), )
+        cat(paste0("Congratulation! You win!!! The answer is ",tg_num,"."))
         break
       }
     }

@@ -19,14 +19,14 @@ guessNum <- function(a = 0, b = 100){
   ccc <- scan()
   a = a; b = b; k = 1
   repeat{
-    if(isTRUE(ccc) && ccc > tg_num){
+    if(ccc > tg_num){
       a = a
       b = ccc
       cat(paste0("Wrong answer, please enter another number between ",a," and ",b))
       ccc <- scan()
       k = k + 1;
     }else{
-      if(isTRUE(ccc) && ccc < tg_num){
+      if(ccc < tg_num){
         a = ccc
         b = b
         cat(paste0("Wrong answer, please enter another number between ",a," and ",b))
